@@ -14,7 +14,7 @@ export const pureAddUser = (name: string,
                             addUserCallback: (name:string)=>void
 ) => {
     // если имя пустое - показать ошибку, иначе - добавить юзера и очистить инпут
-    if(name === '' && name.trim().length === 0) {
+    if(name === '' || name.trim().length === 0) {
         setError("Ошибка! Введите имя!")
     } else {
         addUserCallback(name.trim())
@@ -29,8 +29,9 @@ export const pureOnBlur = (name: string, setError: (error: string)=>void) => { /
 }
 
 export const pureOnEnter = (e: KeyboardEvent<HTMLInputElement>, addUser: ()=>void) => { // если нажата кнопка Enter - добавить
-    // console.log(e.currentTarget.value)
-    if (e.code === 'Enter' && e.currentTarget.value != '') {
+    console.log(e.currentTarget.value)
+    // debugger
+    if (e.code === 'Enter') {
         addUser()
     }
 }
