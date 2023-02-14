@@ -14,8 +14,9 @@
 .hw {
     display: block;
     position: relative;
-    top: 0px;
-    background-color: white;
+    /*top: 0px;*/
+    /*background-color: white;*/
+    padding: 90px 106px 55px 70px;
 }
 
 .hwTitle {
