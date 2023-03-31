@@ -5,6 +5,7 @@
 }
 
 .watch {
+    display: inline-block;
 }
 
 .watch strong {
