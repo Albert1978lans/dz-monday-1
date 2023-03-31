@@ -5,19 +5,64 @@
 }
 
 .users {
+    width: 50%;
 }
 
 .buttonsContainer {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 0px 20px 0px;
 }
 
 .container {
 }
 
+table {
+    border-collapse: collapse;
+}
+
 .thead {
+    background: #E5E5E5;
+    padding: 10px;
 }
 
-.nameCol {
+.thead td {
+    border-collapse: collapse;
+    padding: 16px;
 }
 
-.ageCol {
+thead .nameCol, thead .ageCol{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
 }
+
+tbody td {
+    font-family: 'Roboto';
+    font-weight: bolder;
+    padding: 16px;
+    /*border-bottom: 1px solid #ddd;*/
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:last-child {
+    border-bottom: none;
+}
+
+tbody .nameCol {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+
+
+
+
+

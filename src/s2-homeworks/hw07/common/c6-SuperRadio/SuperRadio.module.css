@@ -1,15 +1,29 @@
 .radio {
+    margin-right: 10px;
+    cursor: pointer;
+
+    border-color: black;
+    background-color: black;
+
 }
 
 .radio::before {
+    /*border-color: black;*/
+    background-color: black;
 }
 
 
 .radio:checked::before {
+    /*border-color: black;*/
+    background-color: black;
 }
 
 .label {
+    padding: 10px 0px;
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
