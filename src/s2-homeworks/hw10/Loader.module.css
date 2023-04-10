@@ -1,3 +1,10 @@
 .loader {
     /*свг и/или анимация*/
+    background-image: url("./335.gif") ;
+    width: 100px;
+    height: 100px;
+    /*background-color: #FFEB3B;*/
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
