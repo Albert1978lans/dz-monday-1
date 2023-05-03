@@ -1,9 +1,19 @@
 .select {
+    width: 135px;
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 20px;
 }
-
+.select div {
+    margin: 0;
+}
 .select:focus {
-}
 
+}
+.select:hover {
+    background-color: lightslategrey;
+}
 
 .option:hover {
+
 }
