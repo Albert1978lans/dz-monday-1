@@ -16,7 +16,7 @@ export type ThemesType = {
     id: number
     value: string
 }
-const themes = [
+const themes: ThemesType[]  = [
     {id: 1, value: 'light'},
     {id: 2, value: 'blue'},
     {id: 3, value: 'dark'},
